@@ -1,0 +1,7 @@
+name: ablation_lambda
+dataset: cmi9905
+foundation: ernie_rna
+include:
+  model: melt/default.yaml
+  data: batch/default.yaml
+  train: anneal/lambda_low.yaml

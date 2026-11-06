@@ -1,0 +1,11 @@
+lr: 0.0005
+weight_decay: 0.00001
+warmup_epochs: 10
+max_epochs: 200
+patience: 20
+batch_size: 128
+grad_clip: 1.0
+lambda_pathway: 0.1
+ema_decay: 0.0
+seed: 0
+folds: 5

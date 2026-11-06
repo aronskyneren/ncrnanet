@@ -1,0 +1,7 @@
+name: ablation_heads4
+dataset: cmi9905
+foundation: ernie_rna
+include:
+  model: melt/heads4.yaml
+  data: batch/default.yaml
+  train: anneal/default.yaml

@@ -1,0 +1,7 @@
+name: ablation_no_gat
+dataset: cmi9905
+foundation: ernie_rna
+include:
+  model: melt/no_gat.yaml
+  data: batch/default.yaml
+  train: anneal/default.yaml

@@ -1,0 +1,16 @@
+name: ncrnanet
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch>=2.1
+  - numpy>=1.24
+  - scipy>=1.10
+  - scikit-learn>=1.2
+  - networkx>=3.0
+  - pyyaml>=6.0
+  - pip
+  - pip:
+      - confuse>=2.0
+      - clize>=5.0

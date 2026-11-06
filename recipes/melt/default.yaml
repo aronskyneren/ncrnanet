@@ -1,0 +1,8 @@
+fm_dim: 768
+dom_dim: 128
+hidden_dim: 256
+heads: 8
+layers: 3
+dropout: 0.2
+use_foundation: true
+use_pathway_prior: true

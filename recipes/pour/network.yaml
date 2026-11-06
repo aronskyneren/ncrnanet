@@ -1,0 +1,7 @@
+name: network
+dataset: geo_sci
+foundation: ernie_rna
+include:
+  model: melt/default.yaml
+  data: batch/default.yaml
+  train: anneal/network.yaml

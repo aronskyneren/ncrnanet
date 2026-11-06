@@ -1,0 +1,5 @@
+kmer_sizes: [3, 4, 5]
+seed_length: 8
+min_length: 18
+max_length: 256
+expression_percentile: 25.0

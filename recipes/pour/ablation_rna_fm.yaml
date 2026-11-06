@@ -1,0 +1,7 @@
+name: ablation_rna_fm
+dataset: cmi9905
+foundation: rna_fm
+include:
+  model: melt/default.yaml
+  data: batch/default.yaml
+  train: anneal/default.yaml
